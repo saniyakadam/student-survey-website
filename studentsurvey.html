@@ -1,0 +1,140 @@
+<!-- this documnet is the survey page as required by the instructions. It is written with HTML5.-->
+<DOCTYPE! HTML>
+<html>
+<head>
+<title>STUDENT SURVEY PAGE</title>
+<style>
+.font {font-family:Century Gothic;
+	font-size:120%;}
+.header {background-color:maroon;
+	 padding:10px;
+	 color:white;
+	display:inline;
+	 }
+a:link    {text-decoration:none;
+	color:white;}
+a:visited {color: white;
+	text decoration : none}
+
+</style>
+</head>
+
+<body>
+
+<div class="font">
+<div class="header">
+
+<a href="index.html">Home</a>
+<!--<a href="https://www.google.com/">Contact us</a>-->
+
+
+<br>
+</div>
+<h1 style="background-color:maroon;color:white;padding:20px"><center>STUDENT SURVEY PAGE </center></h1>
+
+
+
+<form>
+<fieldset>
+<legend>Info:</legend>
+<div class="info">
+*First Name:</br>
+<input type="text" name="firstname" required="required"></br>
+*Last Name:</br>
+<input type="text" name="lasttname" required="required"></br>
+*Street Address:</br>
+<input type="text" name="Streetaddress" required="required"></br>
+*City:</br>
+<input type="text" name="city" required="required"></br>
+*State:</br>
+<input type="text" name="state" required="required"></br>
+*Zip:</br>
+<input type="txt" name="zip" required="required" maxlength="5"></br>
+*Telephone Number:</br>
+<input type="tel" name="telnumber" required="required" pattern="[0-9]{10}"></br>
+*Email:</br>
+<input type="text" name="email" required="required"></br>
+*Date:</br>
+<input type="date" name="date" required="required"></br>
+</fieldset>
+</br>
+</br>
+
+<fieldset>
+<legend>Question 1</legend>
+<div class="q1">
+Q.What do you like most about the campus?
+</br>
+<input type="checkbox" name="like1" value="students">Students
+</br>
+<input type="checkbox" name="like2" value="location">Location
+</br>
+<input type="checkbox" name="like3" value="campus">Campus
+</br>
+<input type="checkbox" name="like4" value="atmosphere">Atmosphere
+</br>
+<input type="checkbox" name="like5" value="dormroom">Dorm room
+</br>
+<input type="checkbox" name="like6" value="sports">Sports
+</br>
+</br>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Question 2</legend>
+Q.How did you become interested in the University?
+</br>
+<input  type="radio" name="interested1" value="friends">Friends
+</br>
+<input  type="radio" name="interested2" value="television">Television
+</br>
+<input  type="radio" name="interested3" value="internet">Internet
+</br>
+<input  type="radio" name="interested4" value="other">Other
+</br>
+If other, please specify:<input  type="text" name="interestedother">
+</br>
+</br>
+</fieldset>
+
+<fieldset>
+<legend>Question 3</legend>
+Q.How likely are you to recommend this school to other prospective students?
+</br>
+<select name="likelyhood">
+	<option value="verylikely">Very likely</option>
+	<option value="likely">Likely</option>
+	<option value="unlikely">Unlikely</option>
+</select>
+</br>
+</br>
+</fieldset>
+
+
+<fieldset>
+<legend>Raffle</legend>
+Raffle(Please enter at least ten comma separated numbers ranging from 1 through 100. 
+This information will be usedd to announce whether the student wins a free movie ticket):
+<input type="text"  name="raffle">
+</br>
+</br>
+</fieldset>
+
+<fieldset>
+<legend>Comments</legend>
+Comments:
+</br>
+<textarea name="comments"  rows="10" columns="30"></textarea>
+</br>
+</br>
+
+<input type="submit" value="Submit" >
+<input type="button" value="Cancel">
+</fieldset>
+</div>
+<form>
+<h3><center>Student Information: Saniya Kadam(G00979373)</center></h3>
+
+</body>
+</html>
