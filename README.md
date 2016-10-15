@@ -1,5 +1,4 @@
-# swe645
-website
+
 This html document is created with HTML5. Please open with chrome.
 This was built using S3 and EC3 AWS. 
 
